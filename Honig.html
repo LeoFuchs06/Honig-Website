@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sommerhonig 2024</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            background-color: #1e1e1e;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            color: #ffca28;
+        }
+        header p {
+            color: #b0b0b0;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .images img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .text-section {
+            margin: 20px 0;
+            color: #c0c0c0;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #757575;
+            font-size: 14px;
+        }
+        /* Media Queries for mobile optimization */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            header h1 {
+                font-size: 24px;
+            }
+            header p, .text-section {
+                font-size: 16px;
+            }
+            footer {
+                font-size: 12px;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                margin: 5px;
+                padding: 10px;
+            }
+            header h1 {
+                font-size: 20px;
+            }
+            header p, .text-section {
+                font-size: 14px;
+            }
+            footer {
+                font-size: 10px;
+            }
+            .images {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sommerhonig 2024</h1>
+            <div class="text-section">
+                <p>Unser Sommerhonig ist zum großen Teil ein Waldhonig, den die Bienen von Honigtauerzeugern auf Fichte, Tanne und Lärche sammeln.</p>
+                <p>Dieses Jahr tritt vermehrt Melecitosehonig auf. Durch den höheren Anteil an Glucose (Traubenzucker) kristallisiert der Honig sehr schnell und lässt sich schwer aus den Waben schleudern. Der nicht kristallisierten Anteil ist viel dickflüssiger als in „normalen“ Jahren. Honig ist ein geniales Naturprodukt mit unterschiedlichstem Aussehen (Farbe, Klarheit, Flüssigkeit) und natürlich unterschiedlichem Geschmack!</p>
+                <p>Und deshalb haben wir unseren Honig nicht erwärmt, nur bei Zimmertemperatur gesiebt und nach drei Tagen, nachdem sich der schwerere kristalline Zucker abgesetzt hat, ohne diesem abgefüllt!</p>
+            </div>
+        </header>
+        <div class="images">
+            <img src="honig1.jpg" alt="Riedler Bienenhonig Glas">
+            <img src="honig2.jpg" alt="Honigwaben">
+            <img src="honig3.jpg" alt="Bienen bei der Arbeit">
+        </div>
+        <footer>
+            &copy; 2024 Riedler Bienenhonig. Alle Rechte vorbehalten.
+        </footer>
+    </div>
+</body>
+</html>
